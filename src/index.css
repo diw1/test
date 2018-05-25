@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: #F7F7F7;
+  padding-top: 200px;
+}
+
+button {
+  margin-top: 0;
+  width: auto;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: 0;
+  border-radius: 100px;
+  background: rgba(254,32,147,1);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  background: -moz-linear-gradient(left, rgba(254,32,147,1) 0%, rgba(255,26,80,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(254,32,147,1) 0%, rgba(255,26,80,1) 100%);
+  background: -o-linear-gradient(left, rgba(254,32,147,1) 0%, rgba(255,26,80,1) 100%);
+  background: -ms-linear-gradient(left, rgba(254,32,147,1) 0%, rgba(255,26,80,1) 100%);
+  background: linear-gradient(to right, rgba(254,32,147,1) 0%, rgba(255,26,80,1) 100%);
+  height: 44px;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 0 4px 6px 0 rgba(196, 22, 60, .1), 0 1px 3px 0 rgba(196, 22, 60, .08);
+  box-sizing: border-box;
+  letter-spacing: -0.01px;
+  padding: 0 30px;
+  cursor: pointer;
+  line-height: 22px;
+  transition: all .3s ease-in-out;
+  outline: none;
+}

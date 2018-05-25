@@ -1,0 +1,43 @@
+.modalContainer{
+    position: relative;
+    top: 0;
+    left: 40%;
+    bottom: 0;
+    right: 40%;
+}
+.modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(33, 33, 33, 0.85);
+    z-index: 1000;
+}
+.modalDialog {
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    right: 35%;
+    bottom: 17%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    z-index: 1001;
+    overflow: auto;
+}
+.modalContent{
+    padding: 30px;
+}
+.header {
+    background: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 32px;
+    padding: 0 32px;
+    min-height: 30px;
+}
+.headerSpan{
+    color:#494E52;
+}
