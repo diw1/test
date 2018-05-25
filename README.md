@@ -1,3 +1,10 @@
+1. Download to local
+2. Run Yarn in the folder
+3. Run Yarn start
+4. Give me a callback 0432498685 Kevin Wang
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
