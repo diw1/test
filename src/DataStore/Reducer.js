@@ -15,6 +15,11 @@ export default (state = {}, action) => {
                 ...state,
                 fail: action.payload
             }
+        case 'LOADING':
+            return {
+                ...state,
+                loading: action.payload
+            }
         default:
             return state
     }

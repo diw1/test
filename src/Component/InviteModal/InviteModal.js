@@ -9,6 +9,11 @@ class InviteModal extends Component {
         onClose: func,
         children: node,
     }
+
+    componentWillUnmount(){
+
+    }
+
     render() {
         return this.props.open ? (
             <div className='modalContainer'>

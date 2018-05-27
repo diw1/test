@@ -7,7 +7,7 @@ const handleResponse = async function (response) {
     }
 }
 
-const apiCall = async (url, method, payload, raw = false) => {
+const apiCall = async (url, method, payload) => {
 
     if (!url.endsWith('/')) {
         url += '/'
@@ -16,7 +16,7 @@ const apiCall = async (url, method, payload, raw = false) => {
     // Fetch options
     const options = { method }
 
-    if (payload && !raw)
+    if (payload)
         payload = JSON.stringify(payload)
 
     if (payload)
@@ -33,9 +33,6 @@ export const post = async (url, payload ) =>
 
 export const patch = async (url, payload) =>
     apiCall(url, 'PATCH', payload )
-
-export const raw_patch = async (url, payload ) =>
-    apiCall(url, 'PATCH', payload, true)
 
 export const del = async (url) =>
     apiCall(url, 'DELETE', null )
